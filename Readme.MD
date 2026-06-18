@@ -36,7 +36,7 @@ Proje, katı bir **Yönetici-Servis** modeliyle yönetilir:
 - **ShopManager:** Ekonomi sistemini ve satın alma arayüzünü yönetir.
 
 ## 🤝 Katkıda Bulunma
-KuramaMC ekibi olarak bu projeyi açık bir şekilde geliştiriyoruz. Hata bildirimi veya önerileriniz için [Issues](https://github.com/KULLANICI_ADIN/REPO_ADIN/issues) kısmını kullanabilirsiniz.
+KuramaMC ekibi olarak bu projeyi açık bir şekilde geliştiriyoruz. Hata bildirimi veya önerileriniz için [Issues](https://github.com/kuramamcresmi-dot/valo-mcsi/issues) kısmını kullanabilirsiniz.
 
 ---
 *Geliştirici: Shiva | KuramaMC*
