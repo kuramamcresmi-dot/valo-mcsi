@@ -1,0 +1,20 @@
+# ==========================================
+#     KuramaMC Valorant Core Config File
+# ==========================================
+
+game:
+  # Bir turun saniye cinsinden süresi
+  round-time: 100
+  # Tur başındaki satın alma (bariyer) süresi
+  buy-time: 30
+  # Kurama (Spike) kurulduktan sonra patlama süresi (saniye)
+  spike-time: 45
+
+# Oyuncuların Valorant etiketlerinde (#TAG) kullanılması yasaklı kelimeler
+profanity-blacklist:
+  - "amk"
+  - "oc"
+  - "siktir"
+  - "fuck"
+  - "shit"
+  - "aq"
