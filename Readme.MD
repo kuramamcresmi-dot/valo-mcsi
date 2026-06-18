@@ -38,4 +38,4 @@ The project follows a strict **Manager-Service** pattern.
 Contributions are highly welcome! Please check our [Contribution Guidelines](CONTRIBUTING.md) before opening a Pull Request.
 
 ---
-*Developed by Shiva for KuramaMC.*
+*Developed by Vadaa for KuramaMC and allowed servers.*
