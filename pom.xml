@@ -22,31 +22,37 @@
             <id>spigotmc-repo</id>
             <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
         </repository>
-        <!-- Sonatype -->
+        <!-- Sonatype Generic Repo -->
         <repository>
             <id>sonatype</id>
             <url>https://oss.sonatype.org/content/groups/public/</url>
         </repository>
-        <!-- Güvenilir Alternatif ProtocolLib Reposu (CodeMC) -->
+        <!-- Resmi ProtocolLib Reposu (Snapshot Desteği Aktif) -->
         <repository>
-            <id>codemc-repo</id>
-            <url>https://repo.codemc.io/repository/maven-public/</url>
+            <id>dmulloy2-repo</id>
+            <url>https://repo.dmulloy2.net/repository/public/</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
         </repository>
     </repositories>
 
     <dependencies>
-        <!-- Spigot API -->
+        <!-- Spigot API (1.20.4) -->
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
             <version>1.20.4-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
-        <!-- CodeMC üzerinden çekilen stabil ProtocolLib -->
+        <!-- 1.20.4 Uyumlu Gerçek ProtocolLib Sürümü -->
         <dependency>
             <groupId>com.comphenix.protocol</groupId>
             <artifactId>ProtocolLib</artifactId>
-            <version>5.0.0</version>
+            <version>5.1.0-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
