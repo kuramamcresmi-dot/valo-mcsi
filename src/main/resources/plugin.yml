@@ -1,0 +1,14 @@
+name: ValorantCore
+version: '1.0.0'
+main: com.kuramamc.valorant.ValorantPlugin
+api-version: '1.20'
+authors: [ KuramaMC_Developer ]
+description: KuramaMC Sunucusuna Özel Geliştirilmiş Gelişmiş Valorant FPS Eklentisi.
+depend:
+  - ProtocolLib
+
+commands:
+  vadmin:
+    description: Valorant Core Admin Komutları.
+    permission: valorant.admin
+    usage: /<command> [baslat/durdur]
